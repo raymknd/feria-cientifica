@@ -34,7 +34,7 @@ function App() {
       <div className={styles.root}>
         <Header clientHeight={clientHeight} className={styles.header}>
           <img
-            src="/static/images/IMG_2814.png"
+            src="/static/images/microscopio.png"
             alt="Imagen de fondo"
             className={styles.background}
           />

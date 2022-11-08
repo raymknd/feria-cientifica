@@ -114,7 +114,7 @@ const Articulos: ISectionProps[] = [
     title: "¿Qué vimos?",
     body: "Durante nuestra observación vimos diferentes fases del ciclo celular y una profase media. Aquí vemos una imágen de lo que logramos capturar durante este proceso y las distintas etapas a las que pertenecen.",
     image: {
-      src: "/static/images/IMG_2814.png",
+      src: "/static/images/microscopio.png",
       comment: '"Raicilla teñida vista bajo el miscroscpio"',
     },
   },
