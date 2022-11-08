@@ -1,12 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// React
+import React from "react";
+import ReactDOM from "react-dom/client";
+import reportWebVitals from "./reportWebVitals";
+
+// Global StyleSheets
+import "./styles/global.sass";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/300-italic.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/400-italic.css";
+import "@fontsource/roboto/700.css";
+import "@fontsource/roboto/700-italic.css";
+import "aos/dist/aos.css";
+
+// Main app component
+import App from "./App";
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById("react-app") as HTMLElement
 );
+
 root.render(
   <React.StrictMode>
     <App />
